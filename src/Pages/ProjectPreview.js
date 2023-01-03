@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import "../Styles/ProjectPreview.css";
 import { ProjectList } from "../Helpers/ProjectList";
 import WebIcon from "@material-ui/icons/Language";
+import ReactPlayer from 'react-player/youtube'
 
 function ProjectPreview() {
     const { id } = useParams();
@@ -10,7 +11,8 @@ function ProjectPreview() {
     return (
         <div className="project">
             <h1>{project.name}</h1>
-            <img src={project.image} alt={project.name} />
+            <ReactPlayer url={project.video} />
+            {/* <img src={project.image} alt={project.name} /> */}
             <p>
                 <b>Skills:</b> {project.skills}
             </p>
