@@ -12,8 +12,8 @@ function Home() {
                 <h2> Hello, My Name is SharKevin</h2>
                 <div className="prompt">
                     <p>A software developer with a passion for Metaverse.</p>
-                    <EmailIcon />
-                    <GithubIcon />
+                    <EmailIcon onClick={() => window.location = 'mailto:chile109@gmail.com'}>Contact Me</EmailIcon>
+                    <GithubIcon onClick={() => window.open('https://github.com/chile109', '_blank')}>Github</GithubIcon>
                 </div>
             </div>
             <div className="skills">
