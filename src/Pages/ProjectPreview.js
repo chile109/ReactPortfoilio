@@ -8,15 +8,16 @@ import ReactPlayer from 'react-player/youtube'
 function ProjectPreview() {
     const { id } = useParams();
     const project = ProjectList[id];
+
     return (
         <div className="project">
             <h1>{project.name}</h1>
             <ReactPlayer url={project.video} />
             {/* <img src={project.image} alt={project.name} /> */}
             <p>
-                <b>Skills:</b> {project.skills}
+                {project.description}
             </p>
-            <WebIcon />
+            <WebIcon onClick={() => window.open(project.url, '_blank')} />
         </div>
     );
 }
