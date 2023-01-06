@@ -59,7 +59,8 @@
 }
 
 .list span {
-    font-size: 20px;
+    font-size: 40px;
+    color: #786d2e;
 }
 
 @media only screen and (max-width: 600px) {

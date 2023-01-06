@@ -3,6 +3,8 @@ import "../Styles/Home.css";
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
 import Avatar from "@material-ui/core/Avatar";
+import { FaUnity, FaReact, FaNodeJs, FaAndroid, FaAws, FaLinux, FaDocker, FaGitAlt } from 'react-icons/fa';
+import { SiArduino, SiOculus, SiPostgresql, SiSequelize, SiJenkins, SiCsharp, SiJavascript, SiGnubash } from 'react-icons/si';
 
 function Home() {
     return (
@@ -22,18 +24,18 @@ function Home() {
                     <li className="item">
                         <h2> Front-End</h2>
                         <span>
-                            Unity, React.js, WebGL, Android, XR(Oculus/VIVE/Vuforia/MARS), Arduino, Kinect
+                            <FaUnity /> Unity,  <SiOculus /> XR(Oculus/VIVE/Vuforia/MARS),  <FaReact /> React,  <FaAndroid /> Android,  <SiArduino /> Arduino
                         </span>
                     </li>
                     <li className="item">
                         <h2>Back-End</h2>
                         <span>
-                            AWS service, Node.js, Sequelize, Postgres, Linux, Docker, Jenkins, Exrpress, Django, RTMP
+                            <FaAws /> AWS service,  <FaNodeJs /> Node.js,  <SiSequelize /> Sequelize,  <SiPostgresql /> Postgres,  <FaLinux /> Linux,  <FaDocker /> Docker,  <SiJenkins /> Jenkins
                         </span>
                     </li>
                     <li className="item">
                         <h2>Language</h2>
-                        <span>C#, Git, JavaScript, SQL, Json, Python, Ruby, JAVA, bash shell.</span>
+                        <span> <SiCsharp /> C#,  <FaGitAlt /> Git,  <SiJavascript /> JavaScript,   <SiGnubash /> bash shell</span>
                     </li>
                 </ol>
             </div>
