@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ReactPortfoilio/static/css/main.329a8acd.css",
-    "main.js": "/ReactPortfoilio/static/js/main.29ea5c57.js",
+    "main.css": "/ReactPortfoilio/static/css/main.67de25e0.css",
+    "main.js": "/ReactPortfoilio/static/js/main.d8450b6a.js",
     "static/js/787.fb771931.chunk.js": "/ReactPortfoilio/static/js/787.fb771931.chunk.js",
     "static/media/UCE-VR.png": "/ReactPortfoilio/static/media/UCE-VR.b211885f5bbe300db764.png",
     "index.html": "/ReactPortfoilio/index.html",
-    "main.329a8acd.css.map": "/ReactPortfoilio/static/css/main.329a8acd.css.map",
-    "main.29ea5c57.js.map": "/ReactPortfoilio/static/js/main.29ea5c57.js.map",
+    "main.67de25e0.css.map": "/ReactPortfoilio/static/css/main.67de25e0.css.map",
+    "main.d8450b6a.js.map": "/ReactPortfoilio/static/js/main.d8450b6a.js.map",
     "787.fb771931.chunk.js.map": "/ReactPortfoilio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.329a8acd.css",
-    "static/js/main.29ea5c57.js"
+    "static/css/main.67de25e0.css",
+    "static/js/main.d8450b6a.js"
   ]
 }
