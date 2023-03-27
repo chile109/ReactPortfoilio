@@ -1,9 +1,17 @@
-import project1 from "../Assets/Images/UCE-VR.png";
+import DEALPNG from "../Assets/Images/UCE-VR.png";
+import GlacticCatchPNG from "../Assets/Images/GalacticCatch.png";
 
 export const ProjectList = [
     {
-        name: "UCE-VR",
-        image: project1,
+        name: "Galactic Catch",
+        image: GlacticCatchPNG,
+        video: "https://youtu.be/4Tfs-YAhDUM",
+        description: "A Unity Card Engine. Developer can easily create a multiplayer card game with Unity3D. It supports VR and AR.",
+        url: "https://www.cakeresume.com/portfolios/galactic-catch"
+    },
+    {
+        name: "DEAL",
+        image: DEALPNG,
         video: "https://youtu.be/jjGUgkIYFpg",
         description: "A Unity Card Engine. Developer can easily create a multiplayer card game with Unity3D. It supports VR and AR.",
         url: "https://www.cakeresume.com/portfolios/one-piece-bon-bon-journey"
