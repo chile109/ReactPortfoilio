@@ -1,10 +1,10 @@
 import DEALPNG from "../Assets/Images/UCE-VR.png";
-import GlacticCatchPNG from "../Assets/Images/GalacticCatch.png";
+import GalacticCatchJPG from "../Assets/Images/GalacticCatch.jpg";
 
 export const ProjectList = [
     {
         name: "Galactic Catch",
-        image: GlacticCatchPNG,
+        image: GalacticCatchJPG,
         video: "https://youtu.be/4Tfs-YAhDUM",
         description: "A Unity Card Engine. Developer can easily create a multiplayer card game with Unity3D. It supports VR and AR.",
         url: "https://www.cakeresume.com/portfolios/galactic-catch"
