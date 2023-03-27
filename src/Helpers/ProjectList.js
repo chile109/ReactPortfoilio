@@ -6,15 +6,15 @@ export const ProjectList = [
         name: "Galactic Catch",
         image: GalacticCatchJPG,
         video: "https://youtu.be/4Tfs-YAhDUM",
-        description: "A Unity Card Engine. Developer can easily create a multiplayer card game with Unity3D. It supports VR and AR.",
+        description: "VR Fishing game on Quest/PICO store, Play the out-of-this-world fishing game from the creators of the Emmy award winning Invasion!",
         url: "https://www.cakeresume.com/portfolios/galactic-catch"
     },
     {
-        name: "DEAL",
+        name: "DEAL - Unity Card Engine toolkit",
         image: DEALPNG,
         video: "https://youtu.be/jjGUgkIYFpg",
-        description: "A Unity Card Engine. Developer can easily create a multiplayer card game with Unity3D. It supports VR and AR.",
-        url: "https://www.cakeresume.com/portfolios/one-piece-bon-bon-journey"
+        description: "Unity Card Game Toolkits. Developer can easily create a multiplayer card game by DEAL graph editor with Unity3D supports VR, AR, mobile platform.",
+        url: "https://www.cakeresume.com/portfolios/deal-unity-card-game-toolkit"
     },
     {
         name: "Metaverse Gallery",
